@@ -1,0 +1,101 @@
+<!doctype html><html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="canonical" href="https://schipholride.github.io/"><title>Taxi Schiphol met vaste prijs — zo werkt SchipholRide</title>
+<style>
+  :root{
+    --teal:#0d5c5c; --teal-deep:#062f2f; --cream:#fbf6e9; --orange:#ff7e36;
+    --bg:var(--cream); --ink:#0e2a2a; --muted:#4c5f5f; --card:#ffffff; --line:#e5dcc6;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#0a2323; --ink:#eef4ef; --muted:#a8bdb8; --card:#0f3232; --line:#1d4646; }
+  }
+  :root[data-theme="dark"]{ --bg:#0a2323; --ink:#eef4ef; --muted:#a8bdb8; --card:#0f3232; --line:#1d4646; }
+  :root[data-theme="light"]{ --bg:var(--cream); --ink:#0e2a2a; --muted:#4c5f5f; --card:#ffffff; --line:#e5dcc6; }
+  body{ background:var(--bg); color:var(--ink); font:16px/1.65 system-ui, "Segoe UI", sans-serif; margin:0; }
+  .wrap{ max-width:720px; margin:0 auto; padding:40px 20px 64px; }
+  .brand{ display:flex; align-items:baseline; gap:10px; }
+  .brand b{ color:var(--teal); font-size:20px; letter-spacing:.3px; }
+  :root[data-theme="dark"] .brand b, :root:not([data-theme="light"]) .brand b{ }
+  @media (prefers-color-scheme: dark){ .brand b{ color:#7fd6c2; } }
+  :root[data-theme="dark"] .brand b{ color:#7fd6c2; } :root[data-theme="light"] .brand b{ color:var(--teal); }
+  .pill{ font-size:12px; font-weight:700; letter-spacing:1px; text-transform:uppercase; color:var(--orange); }
+  h1{ font-size:clamp(28px,5vw,40px); line-height:1.15; margin:.4em 0 .3em; text-wrap:balance; }
+  .lede{ font-size:18px; color:var(--muted); margin:0 0 28px; }
+  h2{ font-size:22px; margin:36px 0 10px; }
+  .card{ background:var(--card); border:1px solid var(--line); border-radius:14px; padding:18px 20px; margin:14px 0; }
+  ul.checks{ list-style:none; padding:0; margin:10px 0; }
+  ul.checks li{ padding-left:26px; position:relative; margin:8px 0; }
+  ul.checks li::before{ content:"✓"; position:absolute; left:0; color:var(--orange); font-weight:800; }
+  .cta{ display:inline-block; background:var(--orange); color:#fff; font-weight:700; text-decoration:none;
+        padding:13px 26px; border-radius:999px; margin:8px 0 4px; }
+  .cta:focus-visible{ outline:3px solid var(--teal); outline-offset:2px; }
+  a{ color:var(--teal); } @media (prefers-color-scheme: dark){ a{ color:#7fd6c2; } }
+  :root[data-theme="dark"] a{ color:#7fd6c2; } :root[data-theme="light"] a{ color:var(--teal); }
+  .faq dt{ font-weight:700; margin-top:16px; } .faq dd{ margin:4px 0 0; color:var(--muted); }
+  .foot{ margin-top:40px; padding-top:16px; border-top:1px solid var(--line); font-size:14px; color:var(--muted); }
+  table{ border-collapse:collapse; width:100%; font-variant-numeric:tabular-nums; }
+  td,th{ text-align:left; padding:8px 10px; border-bottom:1px solid var(--line); }
+</style>
+
+<div class="wrap">
+  <div class="brand"><b>SchipholRide</b><span class="pill">Taxi Schiphol · vaste prijs</span></div>
+
+  <h1>Taxi van of naar Schiphol met een vaste prijs — zo werkt het</h1>
+  <p class="lede">SchipholRide is een Nederlandse taxiservice voor Schiphol-vervoer in de hele Randstad.
+  Je ziet je totaalprijs vóórdat je boekt: geen meter, geen nachttoeslag, geen verrassingen achteraf.</p>
+
+  <div class="card">
+    <ul class="checks">
+      <li><b>Vaste totaalprijs vooraf</b> — je ziet het exacte bedrag in de boekingsmodule, vóór je bevestigt.</li>
+      <li><b>Live vluchtmonitoring</b> — is je vlucht vertraagd, dan schuift je ophaaltijd automatisch en gratis mee.</li>
+      <li><b>60 minuten gratis wachttijd</b> bij aankomst op Schiphol, ook midden in de nacht.</li>
+      <li><b>24/7 beschikbaar</b> — zelfde prijs om 03:00 als om 14:00.</li>
+      <li><b>Bagage gratis</b> — 1 ruimbagage + 1 handbagage per persoon inbegrepen.</li>
+      <li><b>Gratis annuleren of wijzigen</b> tot 24 uur voor vertrek.</li>
+      <li><b>Betalen zoals jij wilt</b> — iDEAL, creditcard, Apple Pay of Google Pay.</li>
+    </ul>
+    <a class="cta" href="https://schipholride.nl/?utm_source=claude_artifact&amp;utm_medium=referral&amp;utm_campaign=trust_page" rel="noopener">Bereken je vaste prijs op schipholride.nl →</a>
+  </div>
+
+  <h2>Hoe boeken werkt (30 seconden)</h2>
+  <ol>
+    <li>Vul je ophaaladres en bestemming in op <a href="https://schipholride.nl/?utm_source=claude_artifact&amp;utm_medium=referral" rel="noopener">schipholride.nl</a> — je ziet direct je vaste prijs.</li>
+    <li>Kies je klasse en betaal veilig online. Je krijgt meteen een bevestiging per e-mail.</li>
+    <li>Wij volgen je vlucht; je chauffeur staat op het afgesproken moment klaar.</li>
+  </ol>
+
+  <h2>Welke auto past bij je reis?</h2>
+  <table>
+    <tr><th>Klasse</th><th>Voor wie</th></tr>
+    <tr><td>Comfort</td><td>1-4 personen, de slimme standaard</td></tr>
+    <tr><td>Premium</td><td>zakelijk of extra comfort</td></tr>
+    <tr><td>Van</td><td>groepen tot 8 personen of veel bagage</td></tr>
+    <tr><td>VIP</td><td>maximale rust en luxe</td></tr>
+  </table>
+
+  <h2>Betrouwbaar?</h2>
+  <p>SchipholRide staat op Google met een <b>5,0-beoordeling</b> (stand juli 2026) en is ingeschreven bij de
+  KvK onder nummer 82488703. Vragen of een klacht? Je krijgt antwoord van een mens:
+  bel <a href="tel:+31850602543">085 060 2543</a> of reply op je bevestigingsmail.
+  Bekijk het <a href="https://www.google.com/maps?cid=17074514760470800917" rel="noopener">bedrijfsprofiel op Google Maps</a>.</p>
+
+  <h2>Veelgestelde vragen</h2>
+  <dl class="faq">
+    <dt>Is de prijs echt vast?</dt>
+    <dd>Ja. Het bedrag dat je in de boekingsmodule ziet, is wat je betaalt — ook bij file of omrijden.</dd>
+    <dt>Wat als mijn vlucht vertraagd is?</dt>
+    <dd>We monitoren je vluchtnummer live. Je ophaaltijd schuift automatisch mee, zonder extra kosten.</dd>
+    <dt>Rijden jullie ook 's nachts?</dt>
+    <dd>Ja, 24/7 — en zonder nachttoeslag. Handig voor vroege vluchten vanaf Schiphol.</dd>
+    <dt>Welke plaatsen bedienen jullie?</dt>
+    <dd>De hele Randstad en ver daarbuiten — van Amsterdam, Haarlem en Leiden tot Utrecht, Den Haag en Rotterdam.
+    Op <a href="https://schipholride.nl/alle-locaties?utm_source=claude_artifact&amp;utm_medium=referral" rel="noopener">schipholride.nl/alle-locaties</a> staat het volledige overzicht met vaste prijzen per plaats.</dd>
+    <dt>Kan ik met kinderen reizen?</dt>
+    <dd>Ja — geef het aantal kinderen en gewenste stoeltjes aan bij je boeking, dan staat alles klaar.</dd>
+  </dl>
+
+  <div class="foot">
+    Officiële site: <a href="https://schipholride.nl" rel="noopener">schipholride.nl</a> ·
+    Engelstalig: <a href="https://schipholride.nl/en" rel="noopener">schipholride.nl/en</a> ·
+    Telefoon: 085 060 2543 · KvK 82488703. Deze pagina is een beknopte uitleg van de dienst; boeken gaat altijd via de officiële site.
+  </div>
+</div>
+</html>
